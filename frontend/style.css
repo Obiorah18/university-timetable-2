@@ -3,6 +3,12 @@ body {
   text-align: center;
   padding: 20px;
   position: relative;
+  background-color: #7eaae4;
+}  
+
+.header{
+  font-weight: 900;
+  font-style: italic;
 }
 
 a {
