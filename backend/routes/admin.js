@@ -40,7 +40,7 @@ router.post('/add', isAuthenticated, adminProtected, (req, res) => {
 
 
 // Delete a class schedule by ID
-router.delete('/delete/:id', (req, res) => {
+router.delete('/delete/:id',isAuthenticated, adminProtected, (req, res) => {
     const { id } = req.params;
     const sqlQuery = "DELETE FROM timetable WHERE id = ?";
     db.query(sqlQuery, [id], (err, result) => {
