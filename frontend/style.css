@@ -3,13 +3,13 @@ body {
   text-align: center;
   padding: 20px;
   position: relative;
-  background-color: #7eaae4;
+  background-color: greenyellow
 }  
 
 .header{
   font-weight: 900;
   font-style: italic;
-  color: #00ff00;
+  color: black
 }
 
 a {
@@ -41,13 +41,15 @@ th {
   justify-content: center;
   column-gap: 8px;
 }
-
+.logout{
+  background-color: #e90606;
+}
 button {
   padding: 10px;
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border: 2px solid #121212;
-  border-radius: 20px;
+  border-radius: 10px;
   font-size: 20px;
   outline: none;
   border: none;
